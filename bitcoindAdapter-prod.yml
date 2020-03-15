@@ -1,4 +1,4 @@
-#For logging it's better to use logback-spring.xml it handle log configuration better.
+#For logging it's better to use logback-spring.xml it handles log configuration better.
 
 #logging:
 #  file:
