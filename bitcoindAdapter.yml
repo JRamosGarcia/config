@@ -76,7 +76,6 @@ bitcoindadapter:
   loadDBOnStart: "true"
   saveDBOnStart: "true"
   saveDBOnRefresh: "true"
-  maxMemPoolSizeReturnedInTxNumber: "0"
   memPoolChangesSize: "10"
   newBlockListSize: "3"
   sendAllTxOnStart: true
