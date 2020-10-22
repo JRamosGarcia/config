@@ -53,9 +53,9 @@ management:
 
 txmempool:
   refreshCountToCreateNewMiningQueue: 5
-  miningQueueNumTxs: 100000
-  miningQueueMaxNumBlocks: 30
-  liveMiningQueueMaxTxs: 100000
+  miningQueueNumTxs: 1000000
+  miningQueueMaxNumBlocks: 100
+  liveMiningQueueMaxTxs: 1000000
   liveMiningQueueGraphSize: 500
   maxLiveDataBufferSize: 100
   numTimesTxIgnoredToRaiseAlarm: 3
