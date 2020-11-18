@@ -5,6 +5,7 @@ bitcoind:
 #  port: 8332 #mainnet
 #testNet
 #  port: 18332
+  # zmqPort: 29000
   user: anon
   password: anon
 
