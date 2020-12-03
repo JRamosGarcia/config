@@ -73,10 +73,4 @@ management:
 #logging.level.org.apache.http.wire: DEBUG
 
 bitcoindadapter:
-  refreshIntervalSec: "30"
-  loadDBOnStart: "false"
-  saveDBOnStart: "false"
-  saveDBOnRefresh: "false"
-  memPoolChangesSize: "10"
-  newBlockListSize: "3"
-  sendAllTxOnStart: true
+  refreshBTIntervalMilliSec: 5000
