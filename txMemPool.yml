@@ -52,7 +52,7 @@ management:
 #logging.level.org.springframework.data.mongodb.core.MongoTemplate: DEBUG
 
 txmempool:
-  refreshCountToCreateNewMiningQueue: 1
+  liveMiningQueueRefreshEachMillis: 5000
   miningQueueNumTxs: 1000000
   miningQueueMaxNumBlocks: 1000
   liveMiningQueueMaxTxs: 1000000
