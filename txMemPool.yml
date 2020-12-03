@@ -61,5 +61,4 @@ txmempool:
   numTimesTxIgnoredToRaiseAlarm: 3
   totalSatVBLostToRaiseAlarm: 3
   numTxMinedButNotInMemPoolToRaiseAlarm: 10
-  liveAlgorithmDiffsEnabled: false
   
