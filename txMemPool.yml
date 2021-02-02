@@ -30,6 +30,14 @@ spring:
     ansi:
       enabled: always
 
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 60000
+        readTimeout: 120000
+
+
 # Spring actuator configuration.
 management:
 #  server:

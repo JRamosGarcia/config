@@ -20,9 +20,6 @@ spring:
           destination: memPool.tx.events
           content-type: application/json
           group: mempoolRecorder
-        sonbEvents:
-          destination: sonb.events
-          content-type: application/json
       kafka:
         binder:
 #          zkNodes: localhost
