@@ -19,7 +19,7 @@ spring:
         txMemPoolEvents:
           destination: memPool.tx.events
           content-type: application/json
-          group: txMemPool
+#          group: txMemPool
       kafka:
         binder:
 #          zkNodes: localhost
