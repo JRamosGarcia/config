@@ -4,4 +4,4 @@ zuul:
   #prefix: /api
   routes:
  #   bitcoindadapter: /bitcoindAdapter/**
-    txmempool: /txmempool/**
+    txmempool: /txmempool-new/**
