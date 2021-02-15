@@ -5,6 +5,9 @@ eureka:
   client:
     registerWithEureka: true
     fetchRegistry: true
+    healthcheck:
+      enabled: true
+
 #    serviceUrl:
 #      defaultZone: http://172.18.0.5:8761/eureka/
 
