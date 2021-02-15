@@ -52,10 +52,11 @@ management:
     web.exposure.include: "*"
   health:
     defaults.enabled: true
+    mongo.enabled: true
+    diskspace.enabled: true
     show-components: always
     show-details: always
   configprops.enabled: true
-
 
 #mainnet
 #server.port: 8080
